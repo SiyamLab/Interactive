@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive</title>
+    <link rel="stylesheet" href="./res/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="box">
+            <div id="icon" style="border-radius: 100%; background-color: rgb(38, 47, 54); width: 30px; height: 30px;" >
+                <img src="./src/Images/icon-star.svg" style="margin-left: 20%; margin-top: 20%;">
+            </div>
+            <h1 style="margin-left: 10%;">How did we do?</h1>
+            <p style="margin-left: 10%;">
+                Please let us know how we did with your support<br>
+                 request. All Feedback is appreciated to help us<br>
+                  improve our offering!
+            </p>
+            <br>
+            <div id="buttonrow" style="margin-left: 11%;">
+                <button onclick="Interactive1()" id="b1" >1</button>
+                <button onclick="Interactive2()" id="b2">2</button>
+                <button onclick="Interactive3()" id="b3">3</button>
+                <button onclick="Interactive4()" id="b4">4</button>
+                <button onclick="Interactive5()" id="b5">5</button>
+            </div>
+            <br></br>
+        <button onclick="Submit()" id="submit">SUBMIT</button>
+        </div>
+
+        <div id="box1">
+            <div id="icon">
+                <img src="./src/Images/illustration-thank-you.svg" width="100px" height="100px" style="margin-bottom: 30%; margin-left: 100px;" >
+            </div>
+            <div id="result"><h4>You have selected 1 out of 5</h4></div>
+            <h1 id="thanks">Thank You!</h1>
+            <p id="apprecite">
+                We appreciate you taking the time to give a<br>
+                rating. If you ever need more support, don't<br>
+                hesitate to get in touch!
+            </p>
+            
+        </div>
+    </container>
+    <script src="./javah.js"></script>
+    
+</body>
+</html>

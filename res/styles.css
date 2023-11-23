@@ -1,0 +1,150 @@
+.container{
+    display: flex;
+    background-color: rgb(20, 21, 25);
+    width: 100vw;
+    height: 100vh;
+}
+#box{
+    
+    background-color: rgb(30, 37, 47);
+    width: 35vw;
+    height: 50vh;
+    margin-left: 300px;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+#box1{
+    display: none;
+    background-color: rgb(30, 37, 47);
+    width: 30vw;
+    height: 45vh;
+    margin-left: 400px;
+    margin-top: 10%;
+    border-radius: 10px;
+       
+}
+#b1{
+    border: none;
+    background-color: rgb(38, 47, 56);
+    border-radius: 100%;
+    color: rgb(244, 249, 255);
+    height: 50px;
+    width: 50px;
+
+}
+#b1:hover{
+    background-color: rgb(252, 118, 19);
+    cursor: pointer;
+}
+#result{
+    width: 220px;
+    height: 27px;
+    margin-left: 20%;
+    background-color: bisque;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#b2{
+    border: none;
+    background-color: rgb(38, 47, 56);
+    border-radius: 100%;
+    color: rgb(244, 249, 255);
+    height: 50px;
+    width: 50px;  
+}
+#b2:hover{
+    background-color: rgb(252, 118, 19);
+    cursor: pointer;
+}
+
+#b3{
+    border: none;
+    background-color: rgb(38, 47, 56);
+    border-radius: 100%;
+    color: rgb(244, 249, 255);
+    height: 50px;
+    width: 50px;   
+}
+#b3:hover{
+    background-color: rgb(252, 118, 19);
+    cursor: pointer;
+}
+
+#b4{
+    border: none;
+    background-color: rgb(38, 47, 56);
+    border-radius: 100%;
+    color: rgb(244, 249, 255);
+    height: 50px;
+    width: 50px;
+}
+#b4:hover{
+    background-color: rgb(252, 118, 19);
+    cursor: pointer;
+}
+
+#b5{
+    border: none;
+    background-color: rgb(38, 47, 56);
+    border-radius: 100%;
+    color:  rgb(244, 249, 255);
+    height: 50px;
+    width: 50px;
+}
+#b5:hover{
+    background-color: rgb(252, 118, 19);
+    cursor: pointer;
+}
+#buttonrow{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 350px;
+    
+
+}
+#submit{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(252, 118, 19);
+    border-radius: 30px;
+    border: none;
+    font-size: x-large;
+    margin-left: 11%;
+    cursor: pointer;
+    color: whitesmoke;
+    text-align: center;
+}
+#submit:hover{
+    background-color: #ffffff;
+    color: rgb(252, 118, 19);
+
+}
+#icon{
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 20px;
+    height: 20px;
+
+}
+p{
+    color: rgb(152, 159, 169);
+}
+h1{
+    color: rgb(252, 255, 255);
+}
+#result{
+    margin-top: 25%;
+    margin-right: 25%;
+    
+}
+#thanks{
+    margin-left: 27%;
+}
+#apprecite{
+    text-align: center;
+    
+    
+}
